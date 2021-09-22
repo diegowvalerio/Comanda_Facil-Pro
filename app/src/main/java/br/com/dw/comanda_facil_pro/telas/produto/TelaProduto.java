@@ -1,11 +1,13 @@
 package br.com.dw.comanda_facil_pro.telas.produto;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -29,7 +31,10 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -60,7 +65,6 @@ public class TelaProduto extends AppCompatActivity {
     final Activity activity = this;
     String currentPhotoPath;
     Uri photoURI;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
