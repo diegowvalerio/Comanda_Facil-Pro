@@ -1,6 +1,7 @@
 package br.com.dw.comanda_facil_pro.adapters;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -81,8 +82,10 @@ public class Adp_ComandaItem extends BaseAdapter {
         }
 
         BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inSampleSize = 2;
+        options.inPurgeable = true;
+        options.inSampleSize = 3;
         options.inJustDecodeBounds = false;
+
         byte[] b = comanda_item.getProduto().getImagem();
         imagem.setImageBitmap(BitmapFactory.decodeByteArray(b,0,b.length,options));
 

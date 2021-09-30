@@ -68,7 +68,7 @@ import br.com.dw.comanda_facil_pro.entidades.Produto;
 public class Comanda_Pedido extends AppCompatActivity implements AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener {
 
     EditText cliente,qtdepessoas,dataabertura;
-    TextView vltotal,vlpago,vltroco,vldesconto,vlrecebido;
+    TextView vltotal;
     ListView listView;
 
     DatabaseHelper banco;
@@ -102,14 +102,6 @@ public class Comanda_Pedido extends AppCompatActivity implements AdapterView.OnI
 
         vltotal = findViewById(R.id.c_vltotal);
         vltotal.setText("0");
-        vlpago = findViewById(R.id.c_vlpago);
-        vlpago.setText("0");
-        vltroco = findViewById(R.id.c_vltroco);
-        vltroco.setText("0");
-        vldesconto = findViewById(R.id.c_vldesconto);
-        vldesconto.setText("0");
-        vlrecebido = findViewById(R.id.c_vlrecebido);
-        vlrecebido.setText("0");
 
         listView = findViewById(R.id.listview_itens);
         listView.setOnItemClickListener(this);
