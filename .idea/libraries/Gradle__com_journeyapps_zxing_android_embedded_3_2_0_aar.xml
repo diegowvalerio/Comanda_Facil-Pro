@@ -1,9 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: com.journeyapps:zxing-android-embedded:3.2.0@aar">
+  <library name="Gradle: com.journeyapps:zxing-android-embedded:3.2.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1c2f677edef870bee13b71a01f4c9bb/jetified-zxing-android-embedded-3.2.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1c2f677edef870bee13b71a01f4c9bb/jetified-zxing-android-embedded-3.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1c2f677edef870bee13b71a01f4c9bb/jetified-zxing-android-embedded-3.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/b9fdb8e0dfef0dde0887b8a454ebd370/transformed/jetified-zxing-android-embedded-3.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/b9fdb8e0dfef0dde0887b8a454ebd370/transformed/jetified-zxing-android-embedded-3.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/b9fdb8e0dfef0dde0887b8a454ebd370/transformed/jetified-zxing-android-embedded-3.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

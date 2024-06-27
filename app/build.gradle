@@ -1,14 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "br.com.dw.comanda_facil_pro"
         minSdkVersion 16
-        targetSdkVersion 30
-        versionCode 2
+        targetSdkVersion 33
+        versionCode 3
         versionName "1.1"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -20,6 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'br.com.dw.comanda_facil_pro'
 }
 
 dependencies {

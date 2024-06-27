@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Comanda_Facil_Pro.iml" filepath="$PROJECT_DIR$/.idea/modules/Comanda_Facil_Pro.iml" group="Comanda_Facil_Pro" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Comanda_Facil Pro/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Comanda_Facil_Pro.iml" filepath="$PROJECT_DIR$/.idea/modules/Comanda_Facil_Pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Comanda_Facil_Pro.app.unitTest.iml" />
     </modules>
   </component>
 </project>
